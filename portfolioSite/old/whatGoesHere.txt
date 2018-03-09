@@ -1,0 +1,7 @@
+This is where the actual website is stored; while this will vary project to project, it will mirror what’s on the webserver and generally follows the same basic structure of:
+
+/styles
+/templates
+/images
+
+and so on…

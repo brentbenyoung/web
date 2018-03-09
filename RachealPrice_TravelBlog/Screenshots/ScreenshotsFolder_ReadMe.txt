@@ -1,0 +1,1 @@
+The Screenshots folder contains screenshots for an app/website grouped into folders named after the iteration. These screenshots are used to coordinate with the client and developers in various phases of the project. Basically, thesescreenshots tell other stakeholders: “This is what it's going to look like.”

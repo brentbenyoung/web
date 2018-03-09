@@ -1,0 +1,1 @@
+This folder contains copies of all contracts sent to the client; should have an unsigned Word and PDF version, then a scanned PDF of the signed contract.

@@ -1,0 +1,1 @@
+The materials folder contains guidelines, photos, brochures and othermaterials.

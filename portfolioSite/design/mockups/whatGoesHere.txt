@@ -1,0 +1,1 @@
+This folder should contain mockups of different modules of the project (e.g. home page, contact form)

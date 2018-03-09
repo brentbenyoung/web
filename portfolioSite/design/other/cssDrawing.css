@@ -1,0 +1,21 @@
+body {
+    background: #25A9FC;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none:
+
+    /* BACKGROUND BORDER ***Remove Later*** */
+
+    background: white;
+        border: solid 4px purple;
+
+    /* END BACKGROUND BORDER */
+
+}

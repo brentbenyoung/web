@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* color: #ECECEC; */
+  background-color: transparent;
+}
+
+.container-fluid {
+  padding: 0;
+  background-color: #ECECEC;
+}
+
+/* -----SECTION STYLINGS----- */
+.section {
+  width: 100%;
+  padding: 5%;
+  display:  grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  background-color: #3D6A42;
+  height: 45px;
+  padding: 0px;
+  /* width: 100%; */
+}
+
+.header {
+  background-image:url('../images/giants-causeway.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  color: #ECECEC;
+
+}
+
+.about {
+  color: #3D6A42;
+  background-color: #ECF5EC;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.call {
+  background-color: #274641;
+}
+
+.skills {
+  color: #042029;
+  background-color: #3B6B40;
+}
+
+.feature-2 {
+  background-color: #6D8F71;
+  height: 700px;
+}
+
+.feature-3 {
+  background-color: #3D6A42;
+  height: 700px;
+}
+
+.info {
+  color: grey;
+  background-color: #20392A;
+  /* padding-left: 90px; */
+  padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+.social-icon-row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.social-icon-row img {
+    height: 60px;
+    width: 60px;
+}
+
+.social-icon-bottom-row {
+  padding-left: 30px;
+}
+
+.email {
+  padding-left: 30px;
+
+  text-align: center;
+  color: #9EB5A0;
+
+
+}
+ /* -----END SECTION STYLINGS----- */
+
+/* OTHER STYLES */
+.img {
+
+  /* width: contain; */
+  /* width: 20px; */
+}
+
+.profile-icon {
+  background-image: url('../images/beard.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 400px;
+}
+
+body {
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 1000%;
+}
+h2{
+  font-size: 500%;
+}
+h3 {
+  font-size: 250%;
+}
+
+h4 {
+  font-size: 150%;
+}
+
+h5 {
+  font-size: 100%;
+}
+
+h6 {
+  font-size: 75%;
+}
+
+/* -----MEDIA QUEARIES ----- */
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .header,
+  .about {
+    height: 667px;
+  }
+
+  .profile-icon {
+    height: 300px;
+    }
+
+    .social {
+      padding-left: 120px
+    }
+
+
+  h3 {
+    font-size: 175%;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .header,
+  .about {
+    height:700px
+  }
+}

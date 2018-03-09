@@ -1,0 +1,1 @@
+The development folder contains all the actual build files such as html, css, js and other files needed to comprise a website.

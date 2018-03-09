@@ -1,0 +1,1 @@
+This folder should contain invoices saved as Excel files and PDFs sent to the client

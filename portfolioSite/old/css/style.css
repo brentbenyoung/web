@@ -1,0 +1,153 @@
+*,
+*::after,
+*::before {
+    font-family: 'helvetica', arial, verdana, sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+    font-size: 125%;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.large-text {
+    text
+}
+
+.beard-pic {
+    background-image: url('../images/beard.svg');
+    background-size: auto, auto;
+}
+
+.icon {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.section-heading{
+    font-size: 150%;
+    text-align: center;
+}
+/* img {
+    width: 25%;
+    height: auto;
+} */
+.center {
+    text-align: center;
+    align-content: center;
+    font-weight: 100;
+}
+
+.h1 {
+    font-size: 100px;
+    padding-bottom: 80px;
+}
+
+.h3{
+    font-size: 100%;
+    padding-bottom: 10%;
+}
+
+.small-text {
+    font-size: 50%
+}
+
+.transparent {
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+
+.hello {
+    /* color: grey; */
+    background-color: #6D8F71;
+    padding: 100px;
+
+    /* background-image: url('../images/hello.jpg')no-repeat center center fixed;
+    background-size: cover;
+    padding: 0px; */
+    /* min-height: 100%; */
+    /* background-size: contain; */
+}
+
+.about {
+    background-color: #0285A0;
+    padding: 100px;
+    /* position: ; */
+
+}
+
+.skills {
+    color: #042029;
+    background-color: #3B6B40;
+    padding: 50px;
+}
+
+.work {
+    background-color: #14859F;
+}
+
+.personal {
+    background-color: #3B9DB2;
+}
+
+.call {
+    background-color: #0285A0;
+    position: fixed;
+}
+
+.info {
+    color: grey;
+    background-color: #283449;
+    padding-left: 90px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+/* hr-celtic {
+    border:0;
+    height:100px;
+    background:url("../images/celticBorder001.svg")  ;
+    background-size: cover;
+    margin: 0px;
+} */
+
+/* Common style for pseudo-elements */
+section::before,
+section::after {
+	position: absolute;
+	content: '';
+	pointer-events: none;
+}
+
+/* ----------Div Separators---------- */
+
+/* Rounded Corners Up-Down */
+.sep-inverted-rounded {
+    margin-bottom: 90px;
+    padding: 13em 10% 10em;
+    border-radius: 0 0 0 90px;
+}
+
+.sep-inverted-rounded::before,
+.sep-inverted-rounded::after {
+    left: 0;
+    z-index: -1;
+    height: 90px;
+    background: #3498db;
+}
+
+.sep-inverted-rounded::before {
+    top: 100%;
+    width: 100%;
+    border-radius: 0 90px 0 0;
+}
+
+.sep-inverted-rounded::after {
+    bottom: 0;
+    z-index: -1;
+    width: 50%;
+}
+/* End Rounded Corners Up-Down */

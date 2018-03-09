@@ -1,0 +1,7 @@
+Naming Convention
+
+ProjectName_Platform_version.extension
+
+	example:
+
+		JohnsBurgerJoint_web_v001.png
